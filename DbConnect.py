@@ -51,7 +51,7 @@ def main():
             ID=int(input("Enter ID to delete:"))
             DeleteRecord(ID)
         elif(IndexOp==4):
-            ID=int(input("Enter person ID:"))
+            ID= int(input("Enter person ID:"))
             Age = int(input("Enter new Age:"))
             UpdateRecord(ID,Age)
 
