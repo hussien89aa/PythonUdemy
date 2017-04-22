@@ -1,11 +1,11 @@
 
-x=10 # global Var
-
+x=10 #Global var
 def Show():
-     print("x={}".format(x))
+     global x
+     print(x)
 
 def main():
-    # x=10 local var
+    global x
     print("x={}".format(x))
     Show()
 if __name__ == '__main__':main()
