@@ -3,7 +3,7 @@ from Class_DbConnect import DBConnect
 def main():
     dbconnect=DBConnect()
     while 1:
-        IndexOp=int(input("\n===\nSelect  Operation,"
+        IndexOp=int(input("\n==\nSelect  Operation,"
                           "\n 1- Add\n"
                           "2- List Admins\n3- delete\n 4- update age\n 0- exit\n===\nIndex number:"))
         if(IndexOp==0):
